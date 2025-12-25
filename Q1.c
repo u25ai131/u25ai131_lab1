@@ -10,6 +10,6 @@ int main()
 	printf("Enter year = ");
 	scanf("%f", &c);
 	d=(a*b*c)/100.0;
-	printf("Simple interest is %.2f", d);
+	printf("Simple interest is %.5f", d);
     return 0;
 }
